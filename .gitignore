@@ -1,0 +1,6 @@
+prompt.txt
+.DS_Store
+
+# GitIgnore for Rust projects
+**/target/*
+**/*.rs.bkp
