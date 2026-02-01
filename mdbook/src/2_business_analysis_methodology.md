@@ -1,12 +1,53 @@
-# Business Analysis Methodology <!-- 800 words>
+# Business Analysis Methodology <!-- 800 words -->
+
+## Analysis Models
+
+<!--
+Table Section: Analysis Models (~600 words)
+POPIT Model and Fishbone Diagram analysis summaries
+
+This section should:
+●  Apply business analysis tools to understand the problem.
+●  Use POPIT Model to analyze People, Organization, Process, Information, Technology.
+●  Apply Fishbone Diagram to identify root causes.
+●  Evaluate a range of potential tools and approaches, and justify your choice.
+-->
+
+### POPIT Model
+
+### Fishbone Diagram Analysis
+
+## Methodology
 
 <!-- 
-This portion of your proposal will explain the business analysis 
-approach you will take, and the business analysis tools you will use.  
+Table Section: Methodology (~400 words)
+SDLC, Project Management methods (Agile/Waterfall/Hybrid), and Kanban/JIRA
+
+This section will explain the business analysis approach you will take, and the business analysis tools you will use.  
  
-You will evaluate a range of potential tools and approaches, and 
-justify your choice.
+You will evaluate a range of potential tools and approaches, and justify your choice.
+
+This section should:
+●  Explain the business analysis approach you will take.
+●  Evaluate SDLC approaches.
+●  Compare project management methods (Agile, Waterfall, Hybrid).
+●  Justify your choice of methodology.
+●  Explain tools like Kanban/JIRA and why you will use them.
+
+Note: Total table allocation is 1000 words (600+400), but this file has 800 word limit from original brief.
 -->
+
+### SDLC
+
+### Project Management Methods
+
+#### Agile
+
+#### Waterfall
+
+#### Hybrid
+
+### Kanban/JIRA
 
 <!--
 RUBRIC C:
