@@ -2,6 +2,8 @@
 
 ## Root Cause Analysis
 
+
+
 <!-- 
 Table Section: Root Cause Analysis (~450 words)
 Problem Analysis, Business Transformation types, and Internal/External factors
@@ -19,9 +21,29 @@ This section should:
 
 ### Business Transformation Types
 
-### Internal and External Factors
+
+<!-- 
+
+Development Process Improvement	
+
+- Development process improvement refers to changes in how software is planned, developed, tested, and deployed. This includes adopting new methodologies (like Agile or DevOps), implementing CI/CD pipelines, or improving quality assurance practices.
+
+Software Transformation Process	
+
+- Specifically focuses on changes or upgrades made to an organisation's software systems, applications, development processes, and technical infrastructure. This could involve modernising legacy systems, implementing new development methodologies, or adopting cloud-native architectures.
+-->
+
+### Internal Factors 
+
+### External Factors
+
+Security is one of the key external factors driving the adoption of a standard set of practices, development environments, deployment pipelines and other tools.
+
+"Highly Significant" cyber attacks rose by 50% in 2025 (Booth, 2025) alongside the ramping up of malicious activity by 
 
 ## Solution & Goal
+
+We propose adopting Platform Engineering practices through the deployment of an Internal Developer Platform (IDP). Platform Engineering, according to juliakm (2023), is "a practice built up from DevOps principles that seeks to improve each development team's security, compliance, costs, and time-to-business value through improved developer experiences and self-service within a secure, governed framework. It's both product-based mindset shift and a set of tools and systems to support it."
 
 <!--
 Solution Consideration, SMART Goal Statement, and Justification
