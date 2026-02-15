@@ -4,4 +4,8 @@ Booth, R. (2025). Cyber-attacks rise by 50% in past year, UK security agency say
 
 juliakm (2023) *What is platform engineering?* [Online] Available at: https://learn.microsoft.com/en-us/platform-engineering/what-is-platform-engineering [Accessed: 1 February 2026]
 
+‌Phillips, R. (2026). Choosing the Right Framework: When to Use SWOT, PESTLE, Porter’s Five Forces, and 5C Analysis. [online] Platform Executive. Available at: https://www.platformexecutive.com/knowledge/business-models/competitive-intelligence/choosing-the-right-framework-when-to-use-swot-pestle-porters-five-forces-and-5c-analysis/ [Accessed 15 Feb. 2026].
+
+‌Umbrex (2026). CATWOE analysis. [online] Independent Management Consultants. Available at: https://umbrex.com/resources/frameworks/organization-frameworks/catwoe-analysis/ [Accessed 15 Feb. 2026].
+
 ‌
