@@ -4,3 +4,6 @@ prompt.txt
 # GitIgnore for Rust projects
 **/target/*
 **/*.rs.bkp
+
+# Personalized settings
+copilot-instructions.md

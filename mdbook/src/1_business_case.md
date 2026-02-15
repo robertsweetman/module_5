@@ -33,9 +33,15 @@ Software Transformation Process
 - Specifically focuses on changes or upgrades made to an organisation's software systems, applications, development processes, and technical infrastructure. This could involve modernising legacy systems, implementing new development methodologies, or adopting cloud-native architectures.
 -->
 
-### Internal Factors 
+### Internal Factors
+
+#### Adopting Best Practice
+
+
 
 ### External Factors
+
+#### Security
 
 Security is one of the key external factors driving the adoption of a standard set of practices, development environments, deployment pipelines and other tools.
 
