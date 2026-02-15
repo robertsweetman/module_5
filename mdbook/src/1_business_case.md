@@ -38,13 +38,27 @@ Applying the CATWOE framework, the transformation can be defined as the moving f
 
 Different stakeholders have other perceptions based on their wordlview, for examples Developers see the issues in terms of technical debt, manual deployment processes and supporting legacy software. 
 
-Finance team members (and executives) look through a lens of cost and sustainability as well as an inability to react to changing policies in time.
+Executives and Finance team members look through a lens of cost and sustainability as well as needing to react quickly to changing governmental policy.
 
 Service managers would love the focus to be on customer experience and ease of support of the services as well as the security concerns that come with running something that's public facing. 
 
 The problem statement must consider all of these perspectives: *The council's current software development practices are insufficiently standardised, poorly governed and difficult to secure, resulting in slow service delivery, escalating costs and exposure to risk.*
 
 ### Business Transformation Types
+
+The T (Transformation) in CATWOE will result in Development Process Improvements which will be nested inside a wider Software Transformation Process. In this case a more streamlined Development Process will underpin and support a wider Software Transformation. 
+
+In modern Software Transformation programs, attempting to adopt a cloud-native architecture (for example) *without* improving the Development Process is like climbing a mountain without shoes. It *can* be done but doing so will be painful and unpleasant. 
+
+A foundational research discovery of the early DevOps papers (Dora.dev, 2021) was that Development teams return better business outcomes if they hit these metrics.
+
+* Change Lead Time - how fast does a change move from code check in to prod?
+* Deployment Frequency - how often are changes deployed to production?
+* Failed Deployment Recovery Time - if something does fail, for how long?
+* Change Fail Rate - if a change is made, how often is it rolled back?
+* Deployment Rework Rate - ratio of deployments that happen because of some unplanned issue in production
+
+A useful way to summarise these points would be that as friction preventing the deployment of software reduces, the Development Process improves which inevitably accellerates Software Transformation, regardless of exactly what type it is.
 
 
 <!-- 
@@ -60,11 +74,15 @@ Software Transformation Process
 
 ### Internal Factors
 
+The analysis here is all about who is impacted inside the organisation (Actors) versus those with authority (Owners) over its direction. If we consider Developers & Support staff as actors they are subject to the competing priorities of the Owner class like budgets, political deadlines and internal politics. 
+
 #### Adopting Best Practice
 
-
+A developer might want to adhere ridgidly to best practice but can only really do so within the constraints set by *owners*. At the same time owners might insist on an unrealistic timeline that risks introducting technical debt or security issues.
 
 ### External Factors
+
+The E (Environment) and C (Customers) part of CATWOE are both really key external factors. Environment encompasses Security around customer's data and the extremely negative impact should this be compromised. Finances of course drive everything from technology choices to staffing, engagement and what solutions are even worth considering.
 
 #### Security
 
@@ -72,9 +90,21 @@ Security is one of the key external factors driving the adoption of a standard s
 
 "Highly Significant" cyber attacks rose by 50% in 2025 (Booth, 2025) alongside the ramping up of malicious activity by 
 
+#### Finances
+
+Certainly in local government this is a constraint that hasn't been well managed at all historically. 
+
+#### Customers
+
+At the end of the day, if voters receive a sub-par service, council staff will receive negative feedback and there could be wider political fallout.
+
+The public expect the same level of digital (self) service that they would get from an Amazon or any commercial organisation (REF: needed)
+
 ## Solution & Goal
 
-We propose adopting Platform Engineering practices through the deployment of an Internal Developer Platform (IDP). Platform Engineering, according to juliakm (2023), is "a practice built up from DevOps principles that seeks to improve each development team's security, compliance, costs, and time-to-business value through improved developer experiences and self-service within a secure, governed framework. It's both product-based mindset shift and a set of tools and systems to support it."
+We propose adopting Platform Engineering practices through the deployment of an Internal Developer Platform (IDP). 
+
+Platform Engineering, according to juliakm (2023), is "a practice built up from DevOps principles that seeks to improve each development team's security, compliance, costs, and time-to-business value through improved developer experiences and self-service within a secure, governed framework. It's both product-based mindset shift and a set of tools and systems to support it."
 
 <!--
 Solution Consideration, SMART Goal Statement, and Justification
@@ -90,7 +120,11 @@ This section should:
 
 ### SMART Goal Statement
 
+**Goal:** Within 12 months of start, enroll three project teams in the IDP, reduce change lead time by 50% using repeatable deployment pipelines and baseline their performance against the DORA metrics.
+
 ### Justification
+
+An Internl Development Platform delivers
 
 <!--
 RUBRIC C:
