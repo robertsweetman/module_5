@@ -8,16 +8,11 @@ The council recognises that legacy systems cannot be supported indefinitely and 
 
 While there are many ways to analyse the current state of the organisation (Phillips, 2026) SWOT, PESTLE etc. they have some limitations in this scenario.
 
-SWOT looks at strengths and weaknesses but doesn't particularly handle conflicting perspectives. Pestle focuses on external inputs but we're discussing an internal transformation projects and Porter's Five Forces are primarily based on assumptions about a competitive market place, similar to SC Analysis.
+SWOT looks at strengths and weaknesses but doesn't particularly handle conflicting perspectives. Pestle focuses on external inputs but we're delivering an internal transformation projects and Porter's Five Forces are primarily based on assumptions about a competitive market place, similar to SC Analysis.
 
 CATWOE (Customers, Actors, Transformation, Worldview, Owners and Environment) analysis is geared towards "messy" problems (Umbrex 2026) in public bodies where stakeholders hold different opinions and priorities as to what's important.
 
 CATWOE seeks to surface various stakeholders assumptions amid changing political, budgetary, technical and service delivery constraints.
-
-
-
-
-
 
 <!-- 
 Table Section: Root Cause Analysis (~450 words)
@@ -34,9 +29,11 @@ This section should:
 
 ### Problem Analysis
 
-Applying the CATWOE framework, the transformation can be defined as the moving from a set of legacy services to a platform that empowers service delivery, speeds it up and maintains security and trust in the organisation.
+Applying the CATWOE framework, the transformation can be defined as moving from a set of legacy services to a platform that empowers faster service delivery, increases security and maintains trust in the organisation.
 
-Different stakeholders have other perceptions based on their wordlview, for examples Developers see the issues in terms of technical debt, manual deployment processes and supporting legacy software. 
+Stakeholders perceptions are based on their Wordlview, the W in CATWOE. 
+
+For example, Developers see the issues in terms of technical debt, manual deployment processes and their challenges in supporting legacy software. 
 
 Executives and Finance team members look through a lens of cost and sustainability as well as needing to react quickly to changing governmental policy.
 
@@ -46,11 +43,9 @@ The problem statement must consider all of these perspectives: *The council's cu
 
 ### Business Transformation Types
 
-The T (Transformation) in CATWOE will result in Development Process Improvements which will be nested inside a wider Software Transformation Process. In this case a more streamlined Development Process will underpin and support a wider Software Transformation. 
+The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like apopting CI/CD, automated testing and standardised environments on which the transformation process depends. In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2010) term "integration hell" where chage freeze periods are required tp stabilize the environment. 
 
-In modern Software Transformation programs, attempting to adopt a cloud-native architecture (for example) *without* improving the Development Process is like climbing a mountain without shoes. It *can* be done but doing so will be painful and unpleasant. 
-
-A foundational research discovery of the early DevOps papers (Dora.dev, 2021) was that Development teams return better business outcomes if they hit these metrics.
+A foundational research discovery of the early DevOps papers (Dora.dev, 2021) was that Development teams return better business outcomes if they attack the following metrics.
 
 * Change Lead Time - how fast does a change move from code check in to prod?
 * Deployment Frequency - how often are changes deployed to production?
@@ -74,25 +69,35 @@ Software Transformation Process
 
 ### Internal Factors
 
-The analysis here is all about who is impacted inside the organisation (Actors) versus those with authority (Owners) over its direction. If we consider Developers & Support staff as actors they are subject to the competing priorities of the Owner class like budgets, political deadlines and internal politics. 
+The analysis here is all about who is impacted inside the organisation (Actors) versus those with authority over its direction (Owners). 
+
+Let's consider Developers & Support staff as Actors they are subject to the competing priorities of the Owner class who are focussed on topics like budgets, political deadlines and internal politics. 
 
 #### Adopting Best Practice
 
-A developer might want to adhere ridgidly to best practice but can only really do so within the constraints set by *owners*. At the same time owners might insist on an unrealistic timeline that risks introducting technical debt or security issues.
+A developer might want to adhere ridgidly to best practice but can only really do so within the constraints set by *owners*. At the same time owners might insist on an unrealistic timeline to meet a political promise which risks introducting technical debt or security issues.
+
+At some point one or both sides must compromise or deal with their own disappointment. It's important how these dynamics and challenges are discussed within the organisation.
 
 ### External Factors
 
-The E (Environment) and C (Customers) part of CATWOE are both really key external factors. Environment encompasses Security around customer's data and the extremely negative impact should this be compromised. Finances of course drive everything from technology choices to staffing, engagement and what solutions are even worth considering.
+The E (Environment) and C (Customers) part of CATWOE are both external factors. Environment encompasses Security around customer's data and the extremely negative impact should this be compromised. Finances of course drive everything from technology choices to staffing, engagement and what solutions are even worth considering.
 
 #### Security
 
-Security is one of the key external factors driving the adoption of a standard set of practices, development environments, deployment pipelines and other tools.
+Security is a key external factor driving the adoption of a standard set of practices, development environments, deployment pipelines and other tools.
 
-"Highly Significant" cyber attacks rose by 50% in 2025 (Booth, 2025) alongside the ramping up of malicious activity by 
+"Highly Significant" cyber attacks rose by 50% in 2025 (Booth, 2025) alongside the ramping up of malicious activity by criminals and even nation-state actors. 
+
+Loss of confidence in the organisation should it become compromised impacts (Customer) trust and damages internal morale as well. 
 
 #### Finances
 
-Certainly in local government this is a constraint that hasn't been well managed at all historically. 
+Government finances with respect to IT projects have not been well managed historically. 
+
+Most recently the National Savings & Investment (NS&I) transformation program is already £1.3 billion over budget and four years late (Clark, 2026) 
+
+Taking steps within the STP to surface the costs of implementing and managing the various services must be part of the transformation project.
 
 #### Customers
 
@@ -118,13 +123,54 @@ This section should:
 
 ### Solution Consideration
 
+We have to balance the competing forces highlighted by the various CATWOE elements, keep their disparate requirements in mind and report on progress across all of these axes.
+
+```mermaid
+flowchart LR
+    subgraph Analysis["CATWOE Analysis"]
+        direction TB
+        Start([Problem Identified]) --> C
+        Start --> A
+        Start --> T
+        Start --> W
+        Start --> O
+        Start --> E
+        
+        C["`**Customers**
+        Public & Service Teams`"]
+        A["`**Actors**
+        Developers & Support`"]
+        T["`**Transformation**
+        Legacy → IDP`"]
+        W["`**Weltanschauung**
+        Competing Priorities`"]
+        O["`**Owners**
+        Leadership Authority`"]
+        E["`**Environment**
+        Security, Budget, Regulation`"]
+        
+        C --> Synth
+        A --> Synth
+        T --> Synth
+        W --> Synth
+        O --> Synth
+        E --> Synth
+        Synth([Problem Statement])
+    end
+```
+Fig 1: Shows how the CATWOE framework pulls the individual narratives into a Smart Goal
+
 ### SMART Goal Statement
 
-**Goal:** Within 12 months of start, enroll three project teams in the IDP, reduce change lead time by 50% using repeatable deployment pipelines and baseline their performance against the DORA metrics.
+**Goal:** Within 12 months of start, enroll three project teams into the IDP, reduce change lead time by 50% using repeatable deployment pipelines and baseline their performance against the DORA metrics.
 
 ### Justification
 
-An Internl Development Platform delivers
+An IDP becomes the vehicle each different stakeholder group can support, because it delivers what they're interested in at an individual level. 
+
+Reducing change lead time reduces delays which lowers the cost of making changes. Improving service delivery improves (external) customer satisfaction and increases public perception that the organisation is succeeding in serving their needs.
+
+The entire council will organisation will benefit because the organisational, process and technical changes needed to deliver an IDP mean that application modernisation, security and other internal/external concerns will be addressed.
 
 <!--
 RUBRIC C:

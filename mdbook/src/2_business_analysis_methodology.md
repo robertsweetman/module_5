@@ -1,5 +1,7 @@
 # Business Analysis Methodology <!-- 800 words -->
 
+Now we have the problem mapped out using CATWOE we can dig deeper into the specifics 
+
 ## Analysis Models
 
 <!--
