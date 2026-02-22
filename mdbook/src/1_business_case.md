@@ -27,7 +27,7 @@ This section should:
 ●  Identify internal and external factors affecting the organization.
 -->
 
-### Problem Analysis
+### Problem Analysis & Problem Statement
 
 Applying the CATWOE framework, the transformation can be defined as moving from a set of legacy services to a platform that empowers faster service delivery, increases security and maintains trust in the organisation.
 
@@ -39,13 +39,17 @@ Executives and Finance team members look through a lens of cost and sustainabili
 
 Service managers would love the focus to be on customer experience and ease of support of the services as well as the security concerns that come with running something that's public facing. 
 
-The problem statement must consider all of these perspectives: *The council's current software development practices are insufficiently standardised, poorly governed and difficult to secure, resulting in slow service delivery, escalating costs and exposure to risk.*
+Considering all of these perspectives results in the following problem statement: 
+
+> *The council's current software development practices are insufficiently standardised, poorly governed and difficult to secure, resulting in slow service delivery, escalating costs and exposure to risk.*
 
 ### Business Transformation Types
 
-The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like apopting CI/CD, automated testing and standardised environments on which the transformation process depends. In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2010) term "integration hell" where chage freeze periods are required tp stabilize the environment. 
+The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like apopting CI/CD, automated testing and standardised environments on which the transformation process depends. 
 
-A foundational research discovery of the early DevOps papers (Dora.dev, 2021) was that Development teams return better business outcomes if they attack the following metrics.
+In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2010) term "integration hell" where change freeze periods are required tp stabilize the environment after new software is deployed.
+
+A foundational research discovery of the early DevOps papers (Dora.dev, 2021) was that Development teams return better business outcomes if they improve the following metrics:
 
 * Change Lead Time - how fast does a change move from code check in to prod?
 * Deployment Frequency - how often are changes deployed to production?
@@ -158,7 +162,7 @@ flowchart LR
         Synth([Problem Statement])
     end
 ```
-Fig 1: Shows how the CATWOE framework pulls the individual narratives into a Smart Goal
+_Fig 1: Shows how the CATWOE framework pulls the individual narratives into a Smart Goal_
 
 ### SMART Goal Statement
 
