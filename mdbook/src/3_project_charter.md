@@ -91,14 +91,24 @@ Total Costs - £370K approx for 12 months
 
 | Benefit | Annual Savings | Notes |
 | ------- | -------------- | ----- |
-| **CAB phased out** | £40K | 10 - 20 attendees time every week, automated change approvals eliminate most meetings |
+| **CAB meeting phased out** | £40K | 10 - 20 attendees time every week, automated change approvals eliminate most meetings |
+| **CAB cost of delay** | £100K | 2 week per project delay, costed accross the year |
+| **CAB cost of pre-meeting prep** | £90K | 3 days prep per project, costed acrross the year |
 | **Developer productivity increase** | £50-100K | Self service deployments, remove delays waiting for approvals |
-| **Risk reduction (security incidents)** | Quantification of this is difficult but it can be classed as potentially millions
-| **Faster service delivery** | Quantification of this is again difficult
+| **Risk reduction (security incidents)** | | Quantification of this is difficult but it can be classed as potentially millions |
+| **Faster service delivery** | | Quantification of this is again difficult |
 
-While the first year investment is 2 - 3 times the quantifiable benefits the intangible value of risk reduction and delivering quality services faster compound over time. 
+<!-- 
 
-Again we have to keep in mind the escalating risks of inaction and build a platform which delivers more capability as investments are made into its capabilities by treating the IDP as a product.
+TODO: find out annual cost of security incidenets and quote it here, add to references
+
+TODO: what's the value of faster service delivery?
+
+-->
+
+While the first year investment is 1.5 times the quantifiable benefit in year 1 the intangible value of risk reduction and delivering quality services faster compound over time. Also an 18 month timeframe to pay off the initial work completely ustifies the initial effort.
+
+Again we have to keep in mind the escalating risks of inaction and build an evolving platform which delivers features by treating the IDP as a product.
 
 <!--
 RUBRIC C:
