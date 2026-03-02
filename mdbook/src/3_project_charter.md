@@ -20,7 +20,7 @@ This section should:
 The MoSCoW framework prioritises deliverables against the problem statement and SMART goal established in [Section 1](1_business_case.md#problem-analysis--problem-statement). Each item is justified by its relationship to a root cause identified through the POPIT and Fishbone analyses in [Section 2](2_business_analysis_methodology.md#fishbone-diagram-analysis).
 
 | Priority | Deliverable | Justification |
-|---|---|---|
+| --- | --- | --- |
 | **Must** | Hub/spoke network design, Entra ID for authentication, security baseline agreed | Without a secure design the platform increases risk exposure — directly contradicting the CATWOE Environmental constraint around public trust and the cyber security findings (Booth, 2025). |
 | **Must** | Subscription factory (platform-core): automated provisioning of Terraform backends, pipelines, UAMI and scaffolded repositories | Addresses the primary POPIT Process root causes (no CI/CD, manual deployments, CAB bottleneck) and directly targets DORA Change Lead Time and Deployment Frequency. |
 | **Must** | DORA baseline dashboard and onboarding of three pilot teams | Required to evidence the SMART goal. Without measurement the transformation cannot be evaluated (Forsgren, Humble and Kim, 2018) |
@@ -31,9 +31,9 @@ The MoSCoW framework prioritises deliverables against the problem statement and 
 
 ### Scope Prioritization
 
-The three **Must** have requirements follow sequentially. 
+The three **Must** have requirements follow sequentially.
 
-Infrastructure architecture decisions need to be made before implementation work starts. Then the pipeline/provisioning can begin (platform-core) where infrastructure as code is enabled to automatically create spoke subscriptions for application teams. 
+Infrastructure architecture decisions need to be made before implementation work starts. Then the pipeline/provisioning can begin (platform-core) where infrastructure as code is enabled to automatically create spoke subscriptions for application teams.
 
 Then the three application teams can be onboarded and taught about the DORA metrics, shown the dashboards and their way of working can be integrated across the tooling - Azure DevOps, Teams, Repos and Deployment pipelines using secure User Assigned Managed Identities
 
@@ -71,7 +71,7 @@ In the rapidly changing IT landscape and increased security threats (Booth, 2025
 | **Staff Capability** | 2010-era practices; low confidence | Teams onboarded to modern tooling with guardrails that reduce cognitive load |
 | **Financial** | Escalating support costs for legacy VMs; reactive incident response | Predictable Azure consumption model; proactive monitoring reduces mean time to recovery |
 
-Doing nothing increases risk of severe reputational damage and security exposure. It also further codifies the existing mid 2010's practices and approaches to service delivery. 
+Doing nothing increases risk of severe reputational damage and security exposure. It also further codifies the existing mid 2010's practices and approaches to service delivery.
 
 ### Cost Benefit Analysis (CBA)
 
@@ -82,7 +82,7 @@ Some benefits are hard to quantify, for example, reputational risk in the event 
 | Category | Cost Estimate | Notes |
 | -------- | ------------- | ----- |
 | **Azure costs (infra)** | £100K / year | Costs in year 1 will be quite low and scale as more aplications come on board |
-| **Platform Engineers x 2** | £250K | Cost to achieve goal of 3 application teams onboarded
+| **Platform Engineers x 2** | £250K | Cost to achieve goal of 3 application teams onboarded |
 | **Training** | £20K | Workshops, documentation, onboarding |
 
 Total Costs - £370K approx for 12 months
@@ -99,11 +99,8 @@ Total Costs - £370K approx for 12 months
 | **Faster service delivery** | | Quantification of this is again difficult |
 
 <!-- 
-
 TODO: find out annual cost of security incidenets and quote it here, add to references
-
 TODO: what's the value of faster service delivery?
-
 -->
 
 While the first year investment is 1.5 times the quantifiable benefit in year 1 the intangible value of risk reduction and delivering quality services faster compound over time. Also an 18 month timeframe to pay off the initial work completely ustifies the initial effort.
