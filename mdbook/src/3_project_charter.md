@@ -17,7 +17,9 @@ This section should:
 
 ### MoSCoW Analysis Summary
 
-The MoSCoW framework prioritises deliverables against the problem statement and SMART goal established in [Section 1](1_business_case.md#problem-analysis--problem-statement). Each item is justified by its relationship to a root cause identified through the POPIT and Fishbone analyses in [Section 2](2_business_analysis_methodology.md#fishbone-diagram-analysis).
+The MoSCoW framework prioritises deliverables against the problem statement and SMART goal established in [Section 1](1_business_case.md#problem-analysis--problem-statement).
+
+Each item is justified by its relationship to a root cause identified through the POPIT and Fishbone analyses in [Section 2](2_business_analysis_methodology.md#fishbone-diagram-analysis).
 
 | Priority | Deliverable | Justification |
 | --- | --- | --- |

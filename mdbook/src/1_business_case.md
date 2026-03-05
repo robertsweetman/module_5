@@ -31,21 +31,21 @@ This section should:
 
 Applying the CATWOE framework, the transformation can be defined as moving from a set of legacy services to a platform that empowers faster service delivery, increases security and maintains trust in the organisation.
 
-Stakeholders perceptions are based on their Wordlview, the W in CATWOE. 
+Stakeholders perceptions are based on their Wordlview, the W in CATWOE.
 
-For example, Developers see the issues in terms of technical debt, manual deployment processes and their challenges in supporting legacy software. 
+For example, Developers see the issues in terms of technical debt, manual deployment processes and their challenges in supporting legacy software.
 
 Executives and Finance team members look through a lens of cost and sustainability as well as needing to react quickly to changing governmental policy.
 
-Service managers would love the focus to be on customer experience and ease of support of the services as well as the security concerns that come with running something that's public facing. 
+Service managers would love the focus to be on customer experience and ease of support of the services as well as the security concerns that come with running something that's public facing.
 
-Considering all of these perspectives results in the following problem statement: 
+Considering all of these perspectives results in the following problem statement:
 
 > *The council's current software development practices are insufficiently standardised, poorly governed and difficult to secure, resulting in slow service delivery, escalating costs and exposure to risk.*
 
 ### Business Transformation Types
 
-The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like apopting CI/CD, automated testing and standardised environments on which the transformation process depends. 
+The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like apopting CI/CD, automated testing and standardised environments on which the transformation process depends.
 
 In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2010) term "integration hell" where change freeze periods are required tp stabilize the environment after new software is deployed.
 
@@ -58,7 +58,6 @@ A foundational research discovery of the early DevOps papers (Dora.dev, 2021) wa
 * Deployment Rework Rate - ratio of deployments that happen because of some unplanned issue in production
 
 A useful way to summarise these points would be that as friction preventing the deployment of software reduces, the Development Process improves which inevitably accellerates Software Transformation, regardless of exactly what type it is.
-
 
 <!-- 
 
@@ -73,9 +72,9 @@ Software Transformation Process
 
 ### Internal Factors
 
-The analysis here is all about who is impacted inside the organisation (Actors) versus those with authority over its direction (Owners). 
+The analysis here is all about who is impacted inside the organisation (Actors) versus those with authority over its direction (Owners).
 
-Let's consider Developers & Support staff as Actors they are subject to the competing priorities of the Owner class who are focussed on topics like budgets, political deadlines and internal politics. 
+Let's consider Developers & Support staff as Actors they are subject to the competing priorities of the Owner class who are focussed on topics like budgets, political deadlines and internal politics.
 
 #### Adopting Best Practice
 
@@ -91,15 +90,15 @@ The E (Environment) and C (Customers) part of CATWOE are both external factors. 
 
 Security is a key external factor driving the adoption of a standard set of practices, development environments, deployment pipelines and other tools.
 
-"Highly Significant" cyber attacks rose by 50% in 2025 (Booth, 2025) alongside the ramping up of malicious activity by criminals and even nation-state actors. 
+"Highly Significant" cyber attacks rose by 50% in 2025 (Booth, 2025) alongside the ramping up of malicious activity by criminals and even nation-state actors.
 
-Loss of confidence in the organisation should it become compromised impacts (Customer) trust and damages internal morale as well. 
+Loss of confidence in the organisation should it become compromised impacts (Customer) trust and damages internal morale as well.
 
 #### Finances
 
-Government finances with respect to IT projects have not been well managed historically. 
+Government finances with respect to IT projects have not been well managed historically.
 
-Most recently the National Savings & Investment (NS&I) transformation program is already £1.3 billion over budget and four years late (Clark, 2026) 
+Most recently the National Savings & Investment (NS&I) transformation program is already £1.3 billion over budget and four years late (Clark, 2026)
 
 Taking steps within the STP to surface the costs of implementing and managing the various services must be part of the transformation project.
 
@@ -111,7 +110,7 @@ The public expect the same level of digital (self) service that they would get f
 
 ## Solution & Goal
 
-We propose adopting Platform Engineering practices through the deployment of an Internal Developer Platform (IDP). 
+We propose adopting Platform Engineering practices through the deployment of an Internal Developer Platform (IDP).
 
 Platform Engineering, according to juliakm (2023), is "a practice built up from DevOps principles that seeks to improve each development team's security, compliance, costs, and time-to-business value through improved developer experiences and self-service within a secure, governed framework. It's both product-based mindset shift and a set of tools and systems to support it."
 
@@ -162,7 +161,8 @@ flowchart LR
         Synth([Problem Statement])
     end
 ```
-_Fig 1: Shows how the CATWOE framework pulls the individual narratives into a Smart Goal_
+
+#### Fig 1: Shows how the CATWOE framework pulls the individual narratives into a Smart Goal
 
 ### SMART Goal Statement
 
@@ -170,7 +170,7 @@ _Fig 1: Shows how the CATWOE framework pulls the individual narratives into a Sm
 
 ### Justification
 
-An IDP becomes the vehicle each different stakeholder group can support, because it delivers what they're interested in at an individual level. 
+An IDP becomes the vehicle each different stakeholder group can support, because it delivers what they're interested in at an individual level.
 
 Reducing change lead time reduces delays which lowers the cost of making changes. Improving service delivery improves (external) customer satisfaction and increases public perception that the organisation is succeeding in serving their needs.
 

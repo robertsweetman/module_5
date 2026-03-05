@@ -19,5 +19,3 @@ ManageEngine (n.d.). Roles and responsibilities of CAB and ECAB. [online] www.ma
 Williams, S. (2025). 'What is a CAB? Should you still have one?', LinkedIn. Available at: https://www.linkedin.com/pulse/what-cab-should-you-still-have-one-stuart-williams-ep7ve/ [Accessed 21 Feb. 2026].
 
 ‌Umbrex (2026). CATWOE analysis. [online] Independent Management Consultants. Available at: https://umbrex.com/resources/frameworks/organization-frameworks/catwoe-analysis/ [Accessed 15 Feb. 2026].
-
-‌

@@ -24,31 +24,31 @@ There are several risk domains that need to be managed when building the IDP.
 
 ### Human Centered Risk
 
-Fundamentally, if the various stakeholders don't buy into the goal and the strategies required to implement the IDP it's unlikely to succeed. 
+If the various stakeholders don't buy into the goal and the strategies required to implement the IDP then it is unlikely to succeed.
 
-Whether it's lack of engagement or worse, active sabotage to undermine the project, participants need to be educated as to why the change is needede.
+Participants need to be educated as to _why_ the IDP is required otherwise they will ignore the changes or actively resist following the new approach.
 
-Offering support and training is another way to increase the confidence of the participants that they can 
+Support and training is required to increase the confidence of the participants so that they deploy infrastructure and resources to the cloud via infrastructure as code rather than manually.
 
-### Project Risk
+### Execurit Support Project Risk
 
-As the project proceeds executive sponsors will likely be focussed on progress against a number of milestones. The project delivery team need to be very open and transparent when it comes to communicating about implementation time, savings, costs and delivering business value. 
+As the project proceeds executive sponsors will likely be focussed on progress against a number of milestones. The project delivery team need to be very open and transparent when it comes to communicating about implementation time, savings, costs and delivering business value.
 
-A executive isn't going to be particularly interested in the deep technical reasons why something does or doesn't work (yet) but they are going to notice that the feature which was supposed to be live at month end is delayed. 
-
-Appointing a dedicated project manager who is responsible for communication around milestones and co-ordinating reviews is mandatory. 
+Executives aren't going to be particularly interested in the deep technical reasons why something does or doesn't work (yet) but they are going to notice when a feature which was supposed to be live and save money or deliver functionality is delayed.
 
 If the executive team starts to perceive the IDP delivery is slipping over budget or burning time they might start interfering, micro-managing or withdraw support from the project.
 
-Similarly, when processes (like the CAB) are de-prioritised those who were previously heavily invested in being part of the governance might feel threatened by their role diminishing. 
+Similarly, when processes (like the CAB) are de-prioritised those who were previously heavily invested in being part of the governance might feel threatened by their role diminishing.
+
+Appointing a dedicated project manager is mandatory so that milestones, blockers and other communication about progress towards the (SMART) goal is clear to all participants.
 
 ### Technical Risk
 
-Technical risks are actually the least troublesome. 
+Technical risks are actually the least troublesome.
 
-Most challenges can be overcome unless the implementation team is under ridiculous externally imposed time pressure. 
+Most challenges can be overcome unless the implementation team is under ridiculous externally imposed time pressure. Again, having someone in charge of project management and communication should offset this.
 
-Following the Agile methodology should give developers the un-interrupted time needed to focus on delivering business value in sprint increments.
+Agile methodology should give developers the un-interrupted time needed to focus on delivering business value in sprint increments.
 
 The challenge for project management is to translate the work in progress into features that the business can grasp the value of.
 
@@ -57,7 +57,7 @@ The challenge for project management is to translate the work in progress into f
 ### Risk Treatment Strategies
 
 | ID | Risk | Probability | Impact | Strategy | Treatment |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | R1 | Teams resist adopting new platform and revert to manual processes | High | High | **Mitigate** | Onboard pilot teams with pair-programming and embed platform engineers; early wins build confidence and create internal advocates (POPIT People). |
 | R2 | Hub/spoke networking or Entra ID misconfiguration exposes tenant to breach | Low | Critical | **Mitigate** | Policy-as-code enforced at subscription creation; Defender for Cloud baselines; peer-reviewed Terraform modules. Aligns with BIA security findings (Booth, 2025). |
 | R3 | Azure consumption costs exceed CBA estimate | Medium | Medium | **Mitigate** | Budget alerts, cost management dashboards and tagging policy enforced via platform-core; monthly spend reviews with finance. |
@@ -65,6 +65,8 @@ The challenge for project management is to translate the work in progress into f
 | R5 | CAB process is not reformed and continues to bottleneck automated deployments | Medium | High | **Transfer** | Escalate to programme sponsor (CATWOE Owner); present DORA evidence that automated change approvals outperform manual CAB review (Williams, 2026). Risk ownership sits with governance, not the delivery team. |
 | R6 | Legacy applications cannot be containerised or adapted to CI/CD pipelines | High | Medium | **Accept** | Acknowledged in MoSCoW as a Won't-have; legacy migration is a subsequent programme. Platform proves value with greenfield and low-complexity services first. |
 | R7 | 12-month SMART goal timeline proves insufficient for three team onboardings | Medium | Medium | **Mitigate** | Agile delivery with two-week sprints allows scope adjustment; MoSCoW Could-haves are descoped first; DORA dashboard provides early visibility of slippage. |
+
+Risks breakdown and mitigation strategies table outlines the various risks, their probability and impact.
 
 ## Probability-Impact Summary
 
@@ -85,6 +87,8 @@ quadrantChart
     R6 - Legacy Incompatibility: [0.70, 0.35]
     R7 - Timeline Slippage: [0.50, 0.65]
 ```
+
+We can also look at the various impacts and their probablity which the communications plan, technical delivery team and executive sponsors need to be aware of.
 
 <!--
 RUBRIC C:

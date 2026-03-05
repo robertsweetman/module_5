@@ -2,11 +2,9 @@
 
 We've framed the problem using CATWOE to understand the competing stakeholders world views and inform a problem statement. DORA shows us what measurable success looks like against a software delivery maturity model which feeds into out smart goal.
 
-However, we still need to analyse the problem further and deliver the solution. 
+However, we still need to analyse the problem further and deliver the solution.
 
 ## Analysis Models
-
-
 
 <!--
 Table Section: Analysis Models (~600 words)
@@ -31,19 +29,19 @@ In this organisation the CAB is a huge sticking point. While the CAB sits on top
 
 At the moment developers need to create a document for DDA (takes 2-4 people a week) and then another one tailored towards risk for the CAB which pulls 10-20 people into a one hour meeting every week.
 
-Additionally some interviewees argued that the CAB is operating under misconceptions (ManageEngine, n.d.) including: 
+Additionally some interviewees argued that the CAB is operating under misconceptions (ManageEngine, n.d.) including:
 
-> "all changes must go to the CAB and that changes can only be implemented if the CAB agrees". 
+> "all changes must go to the CAB and that changes can only be implemented if the CAB agrees".
 
 #### Organisation
 
-Based on my experience so far within the project the technical leadership structure is opaque and hard to navigate. It's not entirely clear who is responsible for what realm and finding out consists of asking team members who to talk to rather than being able to look it up. 
+Based on my experience so far within the project the technical leadership structure is opaque and hard to navigate. It's not entirely clear who is responsible for what realm and finding out consists of asking team members who to talk to rather than being able to look it up.
 
 Any time an issue arises that might be cross-functional or require sharing knowledge to address a problem things start to break down and it can be difficult to find someone to drive the work towards a solution.
 
 #### People
 
-The council culture associated with 'technical best practice' sits within the 2010-2019 era of segregated responsibilities and on-prem manual deployments. While people would obviously like to do better the investment in tooling and support just hasn't materialised. 
+The council culture associated with 'technical best practice' sits within the 2010-2019 era of segregated responsibilities and on-prem manual deployments. While people would obviously like to do better the investment in tooling and support just hasn't materialised.
 
 This further suggests that providing a platform (IDP) that follows best practices and security would support development team members to embrace newer ways of working. Introducing Agile, TDD and CI/CD as some of the foundations of iterative and faster service delivery (see DORA findings around high performing organisations: Forsgren, Humble and Kim, 2018) would certainly empower teams to feel more confident in their abilities.
 
@@ -118,19 +116,20 @@ flowchart RL
     I1[No Single Source of Truth] --> Info
     I2[Complaints-driven Alerting] --> Info
 ```
-_Figure 2: Underlying causes of the current state_
 
-It should now be clear that a change in software development methodology, tooling and associated processes will address the problem. 
+#### Figure 2: Underlying causes of the current state
+
+It should now be clear that a change in software development methodology, tooling and associated processes will address the problem.
 
 ## Methodology
 
-In some ways the decision about which Software Development Life Cycle approach to adopt has already been made for us since we're following the guide laid out by the DORA research and Accelarate. 
+In some ways the decision about which Software Development Life Cycle approach to adopt has already been made for us since we're following the guide laid out by the DORA research and Accelarate.
 
 > Continous delivery, lean management and a culture of experimentation drive performance.
 
 The IDP is effectively a product that will enable the teams to improve the metrics which predict that the goal wil be met. With this in mind we need a flexible approach which can adapt to circumstances which is where Agile shines.
 
-According to the same research other approaches (waterfall, SAFe, ITIL) are too cumbersome. 
+According to the same research other approaches (waterfall, SAFe, ITIL) are too cumbersome.
 
 Waterfall has long feedback loops, excessive up-front planning and big bang releases after a long implementation process.
 
@@ -142,17 +141,15 @@ The reason to go with Agile as an SDLC approach is because according to the DORA
 
 ### Tool choices
 
-Since Azure is the cloud hosting platform being used by the council it's logical to keep to tools that Microsoft support. 
+Since Azure is the cloud hosting platform being used by the council it's logical to keep to tools that Microsoft support.
 
 We could use Jira, Slack, Github and so on but merging these into a single source of truth to capture the metrics needed to measure progress within the project would result in an additional set of integration work.
 
-Paying for a diverse set of tools, even though developers might prefer Slack over Teams, or Gihub actions over Azure DevOps pipelines just results in a higher per-user cost. 
+Paying for a diverse set of tools, even though developers might prefer Slack over Teams, or Gihub actions over Azure DevOps pipelines just results in a higher per-user cost.
 
-Choosing Azure DevOps means we get integrated access to CI/CD pipelines that can easily connect to Entra ID (user management) and cloud resources in Azure as well as Git repositories, user story creation linked to feature branches in code. 
+Choosing Azure DevOps means we get integrated access to CI/CD pipelines that can easily connect to Entra ID (user management) and cloud resources in Azure as well as Git repositories, user story creation linked to feature branches in code.
 
 Dashboards can also be created inside Azure DevOps because of the integrated nature of all these tools to show exactly how teams are performing against the DORA metrics which are predictors for software transformation excellence.
-
-
 
 <!-- 
 Table Section: Methodology (~400 words)
