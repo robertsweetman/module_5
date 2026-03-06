@@ -1,14 +1,14 @@
 # Business Case <!-- 850 words: Root Cause Analysis ~450 + Solution & Goal ~400 -->
 
-The client engagement is based on modernising how council services are developed, supported and delivered to the public.
+The client engagement is based on modernising council service delivery to the public.
 
-The council recognises that legacy systems cannot be supported indefinitely and that new service delivey is hampered by outdated software development processes and tools.  
+The council recognises that legacy systems cannot be supported indefinitely and outdated software delivery processes are hampering service delivery and innovation.  
 
 ## Root Cause Analysis
 
-While there are many ways to analyse the current state of the organisation (Phillips, 2026) SWOT, PESTLE etc. they have some limitations in this scenario.
+There are many ways to analyse an organisation's state (Phillips, 2026) SWOT, PESTLE etc. but they aren't all applicable to this scenario.
 
-SWOT looks at strengths and weaknesses but doesn't particularly handle conflicting perspectives. Pestle focuses on external inputs but we're delivering an internal transformation projects and Porter's Five Forces are primarily based on assumptions about a competitive market place, similar to SC Analysis.
+SWOT looks at strengths and weaknesses but doesn't particularly handle conflicting perspectives. Pestle focuses on external inputs but we are delivering an internal transformation project. Porter's Five Forces are primarily based on assumptions about a competitive market place, similar to SC Analysis.
 
 CATWOE (Customers, Actors, Transformation, Worldview, Owners and Environment) analysis is geared towards "messy" problems (Umbrex 2026) in public bodies where stakeholders hold different opinions and priorities as to what's important.
 
@@ -31,13 +31,13 @@ This section should:
 
 Applying the CATWOE framework, the transformation can be defined as moving from a set of legacy services to a platform that empowers faster service delivery, increases security and maintains trust in the organisation.
 
-Stakeholders perceptions are based on their Wordlview, the W in CATWOE.
+Stakeholders perceptions are based on their Worldview, the W in CATWOE.
 
 For example, Developers see the issues in terms of technical debt, manual deployment processes and their challenges in supporting legacy software.
 
 Executives and Finance team members look through a lens of cost and sustainability as well as needing to react quickly to changing governmental policy.
 
-Service managers would love the focus to be on customer experience and ease of support of the services as well as the security concerns that come with running something that's public facing.
+Service managers would love the focus to be on customer experience, ease of service support and the security concerns that come with running something that's public facing.
 
 Considering all of these perspectives results in the following problem statement:
 
@@ -45,9 +45,9 @@ Considering all of these perspectives results in the following problem statement
 
 ### Business Transformation Types
 
-The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like apopting CI/CD, automated testing and standardised environments on which the transformation process depends.
+The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like adopting CI/CD, automated testing and standardised environments on which the transformation process depends.
 
-In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2010) term "integration hell" where change freeze periods are required tp stabilize the environment after new software is deployed.
+In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2010) term "integration hell" where change freeze periods are required to stabilise the environment after new software is deployed.
 
 A foundational research discovery of the early DevOps papers (Dora.dev, 2021) was that Development teams return better business outcomes if they improve the following metrics:
 
@@ -57,7 +57,7 @@ A foundational research discovery of the early DevOps papers (Dora.dev, 2021) wa
 * Change Fail Rate - if a change is made, how often is it rolled back?
 * Deployment Rework Rate - ratio of deployments that happen because of some unplanned issue in production
 
-A useful way to summarise these points would be that as friction preventing the deployment of software reduces, the Development Process improves which inevitably accellerates Software Transformation, regardless of exactly what type it is.
+A useful way to summarise these points would be that as friction preventing the deployment of software reduces, the Development Process improves which inevitably accelerates Software Transformation, regardless of exactly what type it is.
 
 <!-- 
 
@@ -74,17 +74,17 @@ Software Transformation Process
 
 The analysis here is all about who is impacted inside the organisation (Actors) versus those with authority over its direction (Owners).
 
-Let's consider Developers & Support staff as Actors they are subject to the competing priorities of the Owner class who are focussed on topics like budgets, political deadlines and internal politics.
+Let's consider Developers & Support staff as Actors subject to the competing priorities of the Owner class who are focussed on topics like budgets, political deadlines and internal politics.
 
 #### Adopting Best Practice
 
-A developer might want to adhere ridgidly to best practice but can only really do so within the constraints set by *owners*. At the same time owners might insist on an unrealistic timeline to meet a political promise which risks introducting technical debt or security issues.
+Developers might aim to implement best practice but can only do so within the constraints set by *owners*. If owners insist on an unrealistic timeline to meet a political promise this might risks introducing technical debt or security issues.
 
-At some point one or both sides must compromise or deal with their own disappointment. It's important how these dynamics and challenges are discussed within the organisation.
+At some point one or both sides must compromise or deal with their own disappointment. It's important these dynamics and challenges are discussed within the organisation in an open and transparent manner.
 
 ### External Factors
 
-The E (Environment) and C (Customers) part of CATWOE are both external factors. Environment encompasses Security around customer's data and the extremely negative impact should this be compromised. Finances of course drive everything from technology choices to staffing, engagement and what solutions are even worth considering.
+The E (Environment) and C (Customers) part of CATWOE are both external factors.
 
 #### Security
 
@@ -106,7 +106,7 @@ Taking steps within the STP to surface the costs of implementing and managing th
 
 At the end of the day, if voters receive a sub-par service, council staff will receive negative feedback and there could be wider political fallout.
 
-The public expect the same level of digital (self) service that they would get from an Amazon or any commercial organisation (REF: needed)
+The public expect the same level of digital (self) service that they would get from an Amazon or any commercial organisation (Gov.UK, 2025)
 
 ## Solution & Goal
 
@@ -162,7 +162,7 @@ flowchart LR
     end
 ```
 
-#### Fig 1: Shows how the CATWOE framework pulls the individual narratives into a Smart Goal
+#### Figure 1: Shows how the CATWOE framework pulls the individual narratives into a Smart Goal
 
 ### SMART Goal Statement
 
@@ -174,7 +174,7 @@ An IDP becomes the vehicle each different stakeholder group can support, because
 
 Reducing change lead time reduces delays which lowers the cost of making changes. Improving service delivery improves (external) customer satisfaction and increases public perception that the organisation is succeeding in serving their needs.
 
-The entire council will organisation will benefit because the organisational, process and technical changes needed to deliver an IDP mean that application modernisation, security and other internal/external concerns will be addressed.
+The entire council organisation will benefit because the organisational, process and technical changes needed to deliver an IDP mean that application modernisation, security and other internal/external concerns will be addressed.
 
 <!--
 RUBRIC C:

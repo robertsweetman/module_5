@@ -30,11 +30,11 @@ Participants need to be educated as to _why_ the IDP is required otherwise they 
 
 Support and training is required to increase the confidence of the participants so that they deploy infrastructure and resources to the cloud via infrastructure as code rather than manually.
 
-### Execurit Support Project Risk
+### Executive Support Project Risk
 
 As the project proceeds executive sponsors will likely be focussed on progress against a number of milestones. The project delivery team need to be very open and transparent when it comes to communicating about implementation time, savings, costs and delivering business value.
 
-Executives aren't going to be particularly interested in the deep technical reasons why something does or doesn't work (yet) but they are going to notice when a feature which was supposed to be live and save money or deliver functionality is delayed.
+Executives aren't going to be particularly interested in the deep technical reasons why something does or doesn't work (yet) but they _are_ going to notice when a feature which was supposed to be live and save money is delayed.
 
 If the executive team starts to perceive the IDP delivery is slipping over budget or burning time they might start interfering, micro-managing or withdraw support from the project.
 
@@ -66,7 +66,7 @@ The challenge for project management is to translate the work in progress into f
 | R6 | Legacy applications cannot be containerised or adapted to CI/CD pipelines | High | Medium | **Accept** | Acknowledged in MoSCoW as a Won't-have; legacy migration is a subsequent programme. Platform proves value with greenfield and low-complexity services first. |
 | R7 | 12-month SMART goal timeline proves insufficient for three team onboardings | Medium | Medium | **Mitigate** | Agile delivery with two-week sprints allows scope adjustment; MoSCoW Could-haves are descoped first; DORA dashboard provides early visibility of slippage. |
 
-Risks breakdown and mitigation strategies table outlines the various risks, their probability and impact.
+#### Table 2: Risk treatment strategies, probability and impact
 
 ## Probability-Impact Summary
 
@@ -88,7 +88,9 @@ quadrantChart
     R7 - Timeline Slippage: [0.50, 0.65]
 ```
 
-We can also look at the various impacts and their probablity which the communications plan, technical delivery team and executive sponsors need to be aware of.
+### Figure 3: Probability-Impact matrix
+
+We can also look at the various impacts and their probability which the communications plan, technical delivery team and executive sponsors need to be aware of. Project managers clearly need to address any Adoption Resistance quickly.
 
 <!--
 RUBRIC C:

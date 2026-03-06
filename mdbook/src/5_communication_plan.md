@@ -1,12 +1,12 @@
 # Communication Plan <!-- 800 words -->
 
-One issue identified in this project is a lack of a singular tool for managing both stakeholders, development teams and communications. What tends to happen is that stakeholders want a high level plan in powerpoint, risks end up in excell and development tasks are recorded in Azure DevOps.
+One issue identified in this project is a lack of a singular tool for managing both stakeholders, development teams and communications. What tends to happen is that stakeholders want a high level plan in powerpoint, risks end up in Excel and development tasks are recorded in Azure DevOps.
 
 This lack of a singular platform adds complexity and friction around communications, progress and expectation management.
 
 Project Managers should educate themselves to use Azure DevOps Boards, Dashboards and Wiki pages as the single vehicle for communicating progress. This also increases transparency given that all the information about the project exists in one location rather than being spread across multiple sources.
 
-## Stakeholder Analysis
+## Stakeholder Analysis & tailored communications
 
 Splitting the stakeholders across the CATWOE Actor/Owner distinction results in:
 
@@ -16,6 +16,10 @@ Splitting the stakeholders across the CATWOE Actor/Owner distinction results in:
 | Development Team(s) | Finance |
 | Operations / Support | Service Owners |
 | Security | Project Managers |
+
+#### Table 3: Stakeholder Actor/Owner categorisation using CATWOE
+
+Having done a practice presentation to my immediate team their feedback was that for an internal 'show and tell' type meeting to non-technical staff the presentation should focus on the improved business outcomes, not the technical implementation.
 
 <!--
 Table Section: Stakeholder Analysis (~350 words)
@@ -30,7 +34,11 @@ This section should:
 ●  Distinguish between technical and non-technical stakeholders.
 -->
 
-### Categorization (Power-Interest)
+An Actor/Owner split also reflects a Power-Interest categorisation: Owners (Executive Sponsor, Finance) hold high power and require managed, outcome-focused communication, whereas Actors (Platform Engineers, Developers) hold high interest in implementation detail and need frequent, technically rich engagement.
+
+Technical actors workshop architecture decisions, discuss authentication models, design deployment pipelines, choose solution components through asynchronous and technically dense wiki pages, code reviews and submit proposals for comment.
+
+Executive buy-in demands a clear communication of results in terms of concrete savings, security improvements and service delivery. Tailoring our message to the audience is key.
 
 ### RACI Summary
 
@@ -132,7 +140,7 @@ block-beta
   style g6 fill:#27ae60,color:#fff
 ```
 
-### Figure 4: RACI matrix assigning responsibility across the stakeholders
+### Table 4: RACI matrix assigning responsibility across the stakeholders
 
 We can use this matrix to guide the persuasion and communication steps since this illustrates tensions between various groups.
 
@@ -200,11 +208,11 @@ Some groups should probably only receive a bi-weekly progress update since they'
 
 Security and other stakeholders responsible for architecture (operations) probably need a weekly update as to where various implementation teams are so that technical decisions aren't made in opposition to their interests.
 
-Platform Team memebers and Developers should really be on a daily cadence (Agile development process daily stand-ups) so any issues and blockers can be identified and overcome quickly.
+Platform Team members and Developers should really be on a daily cadence (Agile development process daily stand-ups) so any issues and blockers can be identified and overcome quickly.
 
 It's then the Project Managers job to communicate issues/timescales/delays upwards as well as facilitate in helping them overcome issues or get guidance from Security or Executive Team members if there happen to be competing priorities.
 
-Both the implementation and Executive/Finance teams will likely needing reminding about the (SMART) goal, the timescales and the eventual payoff from achieving this.
+Both the implementation and Executive/Finance teams will likely need reminding about the (SMART) goal, the timescales and the eventual payoff from achieving this.
 <!--
 RUBRIC C:
 Applies communication strategies effectively, though with some clarity issues.

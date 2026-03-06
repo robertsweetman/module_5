@@ -1,6 +1,6 @@
 # Business Analysis Methodology <!-- 800 words -->
 
-We've framed the problem using CATWOE to understand the competing stakeholders world views and inform a problem statement. DORA shows us what measurable success looks like against a software delivery maturity model which feeds into out smart goal.
+We've framed the problem using CATWOE to understand the competing stakeholders world views and inform a problem statement. DORA shows us what measurable success looks like against a software delivery maturity model which feeds into our SMART goal.
 
 However, we still need to analyse the problem further and deliver the solution.
 
@@ -19,17 +19,19 @@ This section should:
 
 ### POPIT Model
 
-POPIT (People, Organisation, Process & Information Technology) can help us decompose the CATWOE perspective into operational dimenstions. What we've found by conductingin interviews with staff and reviewing technology against best practivce has uncovered the following in each area.
+POPIT (People, Organisation, Process & Information Technology) can help us decompose the CATWOE perspective into operational dimensions. What we've found by conducting interviews with staff and reviewing technology against best practice has uncovered the following in each area.
 
 #### Processes
 
-Developers report that processes are not well documented, coding standards are lacking and the development workflow is inconsistent. Formerly, mainly because a lot of the solutions were delivered by third-parties, CI/CD pipelines don't even exist for deployments. Application changes go through two process gates - DDA (TODO: What the hell is this?) and then to the CAB (Change advisory board) however this effectively introduces a 2 week leadtime into any changes.
+Developers report that processes are not well documented, coding standards are lacking and the development workflow is inconsistent. Formerly, mainly because a lot of the solutions were delivered by third-parties, CI/CD pipelines don't exist for deployments.
+
+Application changes go through two process gates - DDA (Digital Design Authority) and then to the CAB (Change Advisory Board) however this effectively introduces a 2 week change leadtime.
 
 In this organisation the CAB is a huge sticking point. While the CAB sits on top of ITIL (IT Infrastructure Library) framework it's the v3 model from 2007 (now nearly 20 years old) that doesn't take into account ITIL v4 (2019) advances like DevOps, automated change approvals and decentralised decision making. (Williams, 2025)
 
-At the moment developers need to create a document for DDA (takes 2-4 people a week) and then another one tailored towards risk for the CAB which pulls 10-20 people into a one hour meeting every week.
+Developers must create a document for DDA (takes 2-4 people a week) and then another one tailored towards risk and business justification for the CAB which pulls 10-20 people into a one hour meeting every week.
 
-Additionally some interviewees argued that the CAB is operating under misconceptions (ManageEngine, n.d.) including:
+Developers argue that the CAB is operating under misconceptions (ManageEngine, n.d.) including:
 
 > "all changes must go to the CAB and that changes can only be implemented if the CAB agrees".
 
@@ -41,7 +43,9 @@ Any time an issue arises that might be cross-functional or require sharing knowl
 
 #### People
 
-The council culture associated with 'technical best practice' sits within the 2010-2019 era of segregated responsibilities and on-prem manual deployments. While people would obviously like to do better the investment in tooling and support just hasn't materialised.
+The council culture associated with 'technical best practice' sits within the 2010-2019 era of segregated responsibilities and on-prem manual deployments.
+
+While people would obviously like to do better the investment in tooling and support just hasn't materialised.
 
 This further suggests that providing a platform (IDP) that follows best practices and security would support development team members to embrace newer ways of working. Introducing Agile, TDD and CI/CD as some of the foundations of iterative and faster service delivery (see DORA findings around high performing organisations: Forsgren, Humble and Kim, 2018) would certainly empower teams to feel more confident in their abilities.
 
@@ -49,7 +53,7 @@ This further suggests that providing a platform (IDP) that follows best practice
 
 Currently services and applications live on virtual machines hosted on premise which are not properly monitored or maintained. This also hampers operational security because there is no single source of truth about the performance of applications that serve the public. Organisations should find out about service outages via customer complaints.
 
-There are virtually no automated CI/CD (continuous improvement/continuous delivery) pipelines to support rapid change across the estate. This is another factor suppoting the proposal to deliver an Interal Development Platform that includes monitoring and automated testing as part of the feature set.
+There are virtually no automated CI/CD (continuous improvement/continuous delivery) pipelines to support rapid change across the estate. This is another factor supporting the proposal to deliver an Internal Developer Platform that includes monitoring and automated testing as part of the feature set.
 
 Introducing automated deployment pipelines deploy first to a dev, then a test and finally a production environment results in being able to confidently ship new features or quickly roll back to a more stable version if an issue appears.
 
@@ -123,7 +127,7 @@ It should now be clear that a change in software development methodology, toolin
 
 ## Methodology
 
-In some ways the decision about which Software Development Life Cycle approach to adopt has already been made for us since we're following the guide laid out by the DORA research and Accelarate.
+In some ways the decision about which Software Development Life Cycle approach to adopt has already been made for us since we're following the guide laid out by the DORA research and Accelerate.
 
 > Continous delivery, lean management and a culture of experimentation drive performance.
 
@@ -133,9 +137,9 @@ According to the same research other approaches (waterfall, SAFe, ITIL) are too 
 
 Waterfall has long feedback loops, excessive up-front planning and big bang releases after a long implementation process.
 
-SAFe (scaled agile framework) contains too much bureaurocratic overhead without contributing much to the outcome.
+SAFe (scaled agile framework) contains too much bureaucratic overhead without contributing much to the outcome.
 
-ITIL (as we've already mentioned) correlated to works outcomes, delays from relying on a CAB and other issues from using this in place of automated testing and deployments.
+ITIL (as we've already mentioned) correlated to worse outcomes, delays from relying on a CAB and other issues from using this in place of automated testing and deployments.
 
 The reason to go with Agile as an SDLC approach is because according to the DORA analysis consisting of multi-year developer surveys and the results summarised in the book Accelerate, it simply produces the best outcomes over other approaches.
 
@@ -145,7 +149,7 @@ Since Azure is the cloud hosting platform being used by the council it's logical
 
 We could use Jira, Slack, Github and so on but merging these into a single source of truth to capture the metrics needed to measure progress within the project would result in an additional set of integration work.
 
-Paying for a diverse set of tools, even though developers might prefer Slack over Teams, or Gihub actions over Azure DevOps pipelines just results in a higher per-user cost.
+Paying for a diverse set of tools, even though developers might prefer Slack over Teams, or GitHub actions over Azure DevOps pipelines just results in a higher per-user cost.
 
 Choosing Azure DevOps means we get integrated access to CI/CD pipelines that can easily connect to Entra ID (user management) and cloud resources in Azure as well as Git repositories, user story creation linked to feature branches in code.
 
@@ -169,7 +173,7 @@ This section should:
 Note: Total table allocation is 1000 words (600+400), but this file has 800 word limit from original brief.
 -->
 
-### SDLC
+<!-- ### SDLC
 
 ### Project Management Methods
 
@@ -181,7 +185,7 @@ Note: Total table allocation is 1000 words (600+400), but this file has 800 word
 
 ### Tools
 
-#### Kanban/JIRA
+#### Kanban/JIRA -->
 
 <!--
 RUBRIC C:

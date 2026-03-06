@@ -4,15 +4,19 @@ Booth, R. (2025). Cyber-attacks rise by 50% in past year, UK security agency say
 
 Clark, L. (2026). NS&I’s IT car crash considers cutting legacy links to stop the bleeding. [online] Theregister.com. Available at: https://www.theregister.com/2026/01/30/nsandi_latest/ [Accessed 16 Feb. 2026].
 
-Dora.dev. (2021). DORA | DORA’s software delivery performance metrics. [online] Available at: https://dora.dev/guides/dora-metrics/.
+Dora.dev. (2021). DORA | DORA’s software delivery performance metrics. [online] Available at: https://dora.dev/guides/dora-metrics/. [Accessed: 5 Mar, 2026]
 
 Forsgren, N., Humble, J. and Kim, G. (2018). Accelerate : the science behind DevOps : building and scaling high performing technology organizations. Portland, Oregon: It Revolution.
+
+Department for Science, Innovation and Technology (2025). Independent research on the economic impact of cyber attacks on the UK. [online] GOV.UK. Available at: https://www.gov.uk/government/publications/independent-research-on-the-economic-impact-of-cyber-attacks-on-the-uk. [Accessed 6 Mar, 2026]
+
+Gov.UK (2025). State of digital government review. [online] GOV.UK. Available at: https://www.gov.uk/government/publications/state-of-digital-government-review/state-of-digital-government-review. [Accessed: 1 Mar, 2026]
 
 Humble, J. and Farley, D. (2011). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Upper Saddle River, Nj: Addison-Wesley.
 
 Juliakm (2023) *What is platform engineering?* [Online] Available at: https://learn.microsoft.com/en-us/platform-engineering/what-is-platform-engineering [Accessed: 1 February 2026]
 
-ManageEngine (n.d.). Roles and responsibilities of CAB and ECAB. [online] www.manageengine.com. Available at: https://www.manageengine.com/products/service-desk/it-change-management/cab-change-advisory-board.html.
+ManageEngine (n.d.). Roles and responsibilities of CAB and ECAB. [online] www.manageengine.com. Available at: https://www.manageengine.com/products/service-desk/it-change-management/cab-change-advisory-board.html. [Accessed: 24 Feb, 2026]
 
 ‌Phillips, R. (2026). Choosing the Right Framework: When to Use SWOT, PESTLE, Porter’s Five Forces, and 5C Analysis. [online] Platform Executive. Available at: https://www.platformexecutive.com/knowledge/business-models/competitive-intelligence/choosing-the-right-framework-when-to-use-swot-pestle-porters-five-forces-and-5c-analysis/ [Accessed 15 Feb. 2026].
 

@@ -31,6 +31,8 @@ Each item is justified by its relationship to a root cause identified through th
 | **Could** | Self-service portal UI, cost management dashboards, IaC drift detection | Enhances developer experience but not critical to proving the initial SMART goal within 12 months |
 | **Won't** | Multi-cloud support, full legacy application migration, SAFe-scale ceremonies | Out of scope for this phase Legacy migration is a different program of work |
 
+#### Table 1: Shows the 'mvp' deliverables for the Internal Developer Platform
+
 ### Scope Prioritization
 
 The three **Must** have requirements follow sequentially.
@@ -77,13 +79,13 @@ Doing nothing increases risk of severe reputational damage and security exposure
 
 ### Cost Benefit Analysis (CBA)
 
-Some benefits are hard to quantify, for example, reputational risk in the event of a security breach but we can make a few approximations across a 12 month period.
+Some benefits are hard to quantify, for example, reputational risk in the event of a security breach but we can make a few other CBA approximations across a 12 month period.
 
 #### Costs
 
 | Category | Cost Estimate | Notes |
 | -------- | ------------- | ----- |
-| **Azure costs (infra)** | £100K / year | Costs in year 1 will be quite low and scale as more aplications come on board |
+| **Azure costs (infra)** | £100K | Costs in year 1 will be quite low and scale as more applications come on board |
 | **Platform Engineers x 2** | £250K | Cost to achieve goal of 3 application teams onboarded |
 | **Training** | £20K | Workshops, documentation, onboarding |
 
@@ -93,21 +95,19 @@ Total Costs - £370K approx for 12 months
 
 | Benefit | Annual Savings | Notes |
 | ------- | -------------- | ----- |
-| **CAB meeting phased out** | £40K | 10 - 20 attendees time every week, automated change approvals eliminate most meetings |
-| **CAB cost of delay** | £100K | 2 week per project delay, costed accross the year |
-| **CAB cost of pre-meeting prep** | £90K | 3 days prep per project, costed acrross the year |
+| **CAB meeting phased out** | £250K | 10 - 20 attendees time every week, automated change approvals eliminate most meetings |
+| **CAB cost of pre-meeting prep** | £90K | 3 days prep per project, costed across the year |
 | **Developer productivity increase** | £50-100K | Self service deployments, remove delays waiting for approvals |
-| **Risk reduction (security incidents)** | | Quantification of this is difficult but it can be classed as potentially millions |
+| **Risk reduction (security incidents)** | See below | Quantification of this is difficult but it can be classed as potentially millions |
 | **Faster service delivery** | | Quantification of this is again difficult |
 
-<!-- 
-TODO: find out annual cost of security incidenets and quote it here, add to references
-TODO: what's the value of faster service delivery?
--->
+Quantified Benefits - £400K approx for initial 12 months
 
-While the first year investment is 1.5 times the quantifiable benefit in year 1 the intangible value of risk reduction and delivering quality services faster compound over time. Also an 18 month timeframe to pay off the initial work completely ustifies the initial effort.
+While the investment roughly equates to the quantifiable benefit in year one the intangible value of risk reduction and delivering quality services at a higher rate will compound over time. A 12 month ROI completely justifies the initial effort.
 
-Again we have to keep in mind the escalating risks of inaction and build an evolving platform which delivers features by treating the IDP as a product.
+Independent research into the economic impact of cyber attacks (DSIT, 2025) records the average as about £195K per incident. Preventing just one breach per year increases the ROI by six months!
+
+We have to keep in mind the escalating risks of inaction and build an evolving platform which delivers features by treating the IDP as a product.
 
 <!--
 RUBRIC C:
