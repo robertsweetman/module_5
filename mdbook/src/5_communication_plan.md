@@ -1,10 +1,10 @@
 # Communication Plan <!-- 800 words -->
 
-One issue identified in this project is a lack of a singular tool for managing both stakeholders, development teams and communications. In reality, stakeholders want a high level plan in powerpoint, risks end up in Excel and development tasks are recorded in Azure DevOps.
+One issue identified is the lack of a singular tool for managing stakeholders, development teams and communications. Stakeholders want plans in PowerPoint, risks end up in Excel and development tasks in Azure DevOps.
 
 This lack of a singular platform adds complexity and friction around communications, progress and expectation management.
 
-Project Managers should educate themselves to use Azure DevOps Boards, Dashboards and Wiki pages as the single vehicle for communicating progress. This also increases transparency given that all the information about the project exists in one location rather than being spread across multiple sources.
+Project Managers should adopt Azure DevOps Boards, Dashboards and Wiki pages as the single vehicle for communicating progress, increasing transparency by consolidating project information in one location.
 
 ## Stakeholder Analysis & tailored communications
 
@@ -35,7 +35,7 @@ This section should:
 ●  Distinguish between technical and non-technical stakeholders.
 -->
 
-An Actor/Owner split also reflects a Power-Interest categorisation: Owners (Executive Sponsor, Finance) hold high power and require managed, outcome-focused communication, whereas Actors (Platform Engineers, Developers) hold high interest in implementation detail and need frequent, technically rich engagement.
+This Actor/Owner split reflects a Power-Interest categorisation: Owners hold high power and require managed, outcome-focused communication, whereas Actors hold high interest in implementation detail and need frequent, technically rich engagement.
 
 Technical actors workshop architecture decisions, discuss authentication models, design deployment pipelines, choose solution components through asynchronous and technically dense wiki pages, code reviews and submit proposals for comment.
 
@@ -145,7 +145,7 @@ block-beta
 
 We can use this matrix to guide the persuasion and communication steps since this illustrates tensions between various groups.
 
-Taking Security as an example, the Security team is responsible for the topic and the Executive team is accountable if there's a breach but Platform Engineering, Project Management and Ops need to be consulted because they're most likely to be implementing the solution Security proposes.
+For example, the Security team is responsible for security baseline sign-off and the Executive team accountable, but Platform Engineering, Project Management and Ops must be consulted as they implement whatever Security proposes.
 
 The tension in this case might well arise between timeframes (Executive requirements), best practice (as proposed by the Security team) and what's practical to implement given the time & expertise of the Platform team.
 

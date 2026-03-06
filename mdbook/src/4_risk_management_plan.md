@@ -24,17 +24,17 @@ There are several risk domains that need to be managed when building the IDP.
 
 ### Human Centered Risk
 
-If the various stakeholders don't buy into the goal and the strategies required to implement the IDP then it is unlikely to succeed.
+If stakeholders don't buy into the goal and strategies required to implement the IDP it is unlikely to succeed.
 
-Participants need to be educated as to _why_ the IDP is required otherwise they will ignore the changes or actively resist following the new approach.
+Participants need to understand _why_ the IDP is required, otherwise they will ignore changes or actively resist the new approach.
 
 Support and training is required to increase the confidence of the participants so that they deploy infrastructure and resources to the cloud via infrastructure as code rather than manually.
 
 ### Executive Support Project Risk
 
-As the project proceeds executive sponsors will likely be focussed on progress against a number of milestones. The project delivery team need to be very open and transparent when it comes to communicating about implementation time, savings, costs and delivering business value.
+As the project proceeds, executive sponsors will focus on milestones. The delivery team must be transparent about implementation time, savings, costs and business value.
 
-Executives aren't going to engage with the technical reasons why something does or doesn't work but they _are_ going to notice when a feature which was supposed to be live and save money is delayed.
+Executives will not engage with technical explanations but _will_ notice when a feature expected to be live and saving money is delayed.
 
 If the executive team starts to perceive the IDP delivery is slipping over budget or burning time they might start interfering, micro-managing or withdraw support from the project.
 

@@ -19,15 +19,15 @@ This section should:
 
 ### POPIT Model
 
-POPIT (People, Organisation, Process & Information Technology) can help us decompose the CATWOE perspective into operational dimensions. What we've found by conducting interviews with staff and reviewing technology against best practice has uncovered the following in each area.
+POPIT (People, Organisation, Process & Information Technology) decomposes the CATWOE perspective into operational dimensions. Interviews with staff and reviews against best practice uncovered the following.
 
 #### Processes
 
-Developers report that processes are not well documented, coding standards are lacking and the development workflow is inconsistent. Formerly, mainly because most solutions were delivered by third-parties, CI/CD pipelines don't exist for deployments.
+Developers report poorly documented processes, inconsistent coding standards and absent CI/CD pipelines — largely because solutions were formerly delivered by third parties.
 
 Application changes go through two process gates - DDA (Digital Design Authority) and then to the CAB (Change Advisory Board) however this effectively introduces a 2 week change leadtime.
 
-In this organisation the CAB is a governance bottleneck. While the CAB sits on top of ITIL (IT Infrastructure Library) framework it's the v3 model from 2007 (now nearly 20 years old) that doesn't take into account ITIL v4 (2019) advances like DevOps, automated change approvals and decentralised decision making. (Williams, 2025)
+The CAB is a governance bottleneck, operating under the ITIL v3 framework (2007) which predates ITIL v4 (2019) advances such as DevOps, automated change approvals and decentralised decision-making (Williams, 2025).
 
 Developers must create a document for DDA (takes 2-4 people a week) and then another one tailored towards risk and business justification for the CAB which pulls 10-20 people into a one hour meeting every week.
 
@@ -39,7 +39,7 @@ Developers argue that the CAB is operating under misconceptions (ManageEngine, n
 
 Based on my experience so far within the project the technical leadership structure is opaque and hard to navigate. It's not entirely clear who is responsible for what realm and finding out consists of asking team members who to talk to rather than being able to look it up.
 
-Any time an issue arises that might be cross-functional or require sharing knowledge to address a problem communication slow and it can be difficult to find someone to drive the work towards a solution.
+Cross-functional issues surface slowly because communication channels are unclear and no-one is accountable for driving resolution.
 
 #### People
 
@@ -55,7 +55,7 @@ Currently services and applications live on virtual machines hosted on premise w
 
 There are virtually no automated CI/CD (continuous improvement/continuous delivery) pipelines to support rapid change across the estate. This is another factor supporting the proposal to deliver an Internal Developer Platform that includes monitoring and automated testing as part of the feature set.
 
-Introducing automated deployment pipelines deploy first to a dev, then a test and finally a production environment results in being able to confidently ship new features or quickly roll back to a more stable version if an issue appears.
+Automated pipelines promoting changes through dev, test and production environments enable confident releases and rapid rollback when issues arise.
 
 <!-- 
 
@@ -127,7 +127,7 @@ It should now be clear that a change in software development methodology, toolin
 
 ## Methodology
 
-In some ways the decision about which Software Development Life Cycle approach to adopt has already been made for us since we're following the guide laid out by the DORA research and Accelerate.
+In some ways the SDLC decision has already been made since we're following the guide laid out by DORA research and Accelerate.
 
 > Continous delivery, lean management and a culture of experimentation drive performance.
 

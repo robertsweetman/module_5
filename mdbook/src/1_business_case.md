@@ -6,11 +6,11 @@ The council recognises that legacy systems cannot be supported indefinitely and 
 
 ## Root Cause Analysis
 
-There are many ways to analyse an organisation's state (Phillips, 2026) SWOT, PESTLE etc. but they aren't all applicable to this scenario.
+There are many ways to analyse an organisation's state (Phillips, 2026) but not all are applicable here.
 
-SWOT looks at strengths and weaknesses but doesn't particularly handle conflicting perspectives. Pestle focuses on external inputs but we are delivering an internal transformation project. Porter's Five Forces are primarily based on assumptions about a competitive market place, similar to SC Analysis.
+SWOT addresses strengths and weaknesses but doesn't handle conflicting perspectives. PESTLE focuses on external inputs whereas this is an internal transformation. Porter's Five Forces and SC Analysis assume a competitive marketplace.
 
-CATWOE (Customers, Actors, Transformation, Worldview, Owners and Environment) analysis is geared towards "messy" problems (Umbrex 2026) in public bodies where stakeholders hold different opinions and priorities as to what's important.
+CATWOE (Customers, Actors, Transformation, Worldview, Owners and Environment) is geared towards "messy" problems (Umbrex 2026) in public bodies where stakeholders hold competing priorities.
 
 CATWOE seeks to surface various stakeholders assumptions amid changing political, budgetary, technical and service delivery constraints.
 
