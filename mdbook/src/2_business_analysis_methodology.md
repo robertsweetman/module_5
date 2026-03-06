@@ -49,7 +49,7 @@ This further suggests that providing a platform (IDP) that follows best practice
 
 Currently services and applications live on virtual machines hosted on premise which are not properly monitored or maintained. This also hampers operational security because there is no single source of truth about the performance of applications that serve the public. Organisations should find out about service outages via customer complaints.
 
-There are virtually no automated CI/CD (continuous improvement/continuous delivery) pipelines to support rapid change across the estate. This is another factor suppoting the proposal to deliver an Interal Development Platform that includes monitoring and automated testing as part of the feature set. 
+There are virtually no automated CI/CD (continuous improvement/continuous delivery) pipelines to support rapid change across the estate. This is another factor suppoting the proposal to deliver an Interal Development Platform that includes monitoring and automated testing as part of the feature set.
 
 Introducing automated deployment pipelines deploy first to a dev, then a test and finally a production environment results in being able to confidently ship new features or quickly roll back to a more stable version if an issue appears.
 
