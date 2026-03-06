@@ -17,8 +17,9 @@ Splitting the stakeholders across the CATWOE Actor/Owner distinction results in:
 | Operations / Support | Service Owners |
 | Security | Project Managers |
 
+<!-- markdownlint-disable MD001 -->
 #### Table 3: Stakeholder Actor/Owner categorisation using CATWOE
-
+<!-- markdownlint-enable MD001 -->
 Having done a practice presentation to my immediate team their feedback was that for an internal 'show and tell' type meeting to non-technical staff the presentation should focus on the improved business outcomes, not the technical implementation.
 
 <!--
