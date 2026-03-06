@@ -34,7 +34,7 @@ Support and training is required to increase the confidence of the participants 
 
 As the project proceeds executive sponsors will likely be focussed on progress against a number of milestones. The project delivery team need to be very open and transparent when it comes to communicating about implementation time, savings, costs and delivering business value.
 
-Executives aren't going to be particularly interested in the deep technical reasons why something does or doesn't work (yet) but they _are_ going to notice when a feature which was supposed to be live and save money is delayed.
+Executives aren't going to engage with the technical reasons why something does or doesn't work but they _are_ going to notice when a feature which was supposed to be live and save money is delayed.
 
 If the executive team starts to perceive the IDP delivery is slipping over budget or burning time they might start interfering, micro-managing or withdraw support from the project.
 
@@ -46,7 +46,7 @@ Appointing a dedicated project manager is mandatory so that milestones, blockers
 
 Technical risks are actually the least troublesome.
 
-Most challenges can be overcome unless the implementation team is under ridiculous externally imposed time pressure. Again, having someone in charge of project management and communication should offset this.
+Most challenges can be overcome unless the implementation team is under undue externally imposed time pressure. Again, having someone in charge of project management and communication should offset this.
 
 Agile methodology should give developers the un-interrupted time needed to focus on delivering business value in sprint increments.
 
@@ -62,7 +62,7 @@ The challenge for project management is to translate the work in progress into f
 | R2 | Hub/spoke networking or Entra ID misconfiguration exposes tenant to breach | Low | Critical | **Mitigate** | Policy-as-code enforced at subscription creation; Defender for Cloud baselines; peer-reviewed Terraform modules. Aligns with BIA security findings (Booth, 2025). |
 | R3 | Azure consumption costs exceed CBA estimate | Medium | Medium | **Mitigate** | Budget alerts, cost management dashboards and tagging policy enforced via platform-core; monthly spend reviews with finance. |
 | R4 | Platform engineers leave or are reassigned mid-delivery | Medium | High | **Mitigate** | Document all platform-core modules; ensure at least two engineers can operate every Tier 1–2 component; IaC as living documentation reduces bus factor. |
-| R5 | CAB process is not reformed and continues to bottleneck automated deployments | Medium | High | **Transfer** | Escalate to programme sponsor (CATWOE Owner); present DORA evidence that automated change approvals outperform manual CAB review (Williams, 2026). Risk ownership sits with governance, not the delivery team. |
+| R5 | CAB process is not reformed and continues to bottleneck automated deployments | Medium | High | **Transfer** | Escalate to programme sponsor (CATWOE Owner); present DORA evidence that automated change approvals outperform manual CAB review (Williams, 2025). Risk ownership sits with governance, not the delivery team. |
 | R6 | Legacy applications cannot be containerised or adapted to CI/CD pipelines | High | Medium | **Accept** | Acknowledged in MoSCoW as a Won't-have; legacy migration is a subsequent programme. Platform proves value with greenfield and low-complexity services first. |
 | R7 | 12-month SMART goal timeline proves insufficient for three team onboardings | Medium | Medium | **Mitigate** | Agile delivery with two-week sprints allows scope adjustment; MoSCoW Could-haves are descoped first; DORA dashboard provides early visibility of slippage. |
 

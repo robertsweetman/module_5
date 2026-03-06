@@ -1,6 +1,6 @@
 # Communication Plan <!-- 800 words -->
 
-One issue identified in this project is a lack of a singular tool for managing both stakeholders, development teams and communications. What tends to happen is that stakeholders want a high level plan in powerpoint, risks end up in Excel and development tasks are recorded in Azure DevOps.
+One issue identified in this project is a lack of a singular tool for managing both stakeholders, development teams and communications. In reality, stakeholders want a high level plan in powerpoint, risks end up in Excel and development tasks are recorded in Azure DevOps.
 
 This lack of a singular platform adds complexity and friction around communications, progress and expectation management.
 
@@ -205,13 +205,13 @@ We can refer to the Ethos/Pathos/Logos strategies regularly to remind and persua
 * Which will enable us to better serve our community with services that will enhance their lives (emotion, pathos)
 * Failing to do so will lead to increased security risk and make future changes and features harder to implement (logic, logos)
 
-Some groups should probably only receive a bi-weekly progress update since they're interested in the big picture. This would be the Executive and Finance Teams who measure progress against business outcomes, not technical ones.
+Some groups only need a bi-weekly progress update since they're interested in the big picture. This would be the Executive and Finance Teams who measure progress against business outcomes, not technical ones.
 
-Security and other stakeholders responsible for architecture (operations) probably need a weekly update as to where various implementation teams are so that technical decisions aren't made in opposition to their interests.
+Security and other stakeholders responsible for architecture (operations) require a weekly update where various implementation teams are so that technical decisions aren't made in opposition to their interests.
 
-Platform Team members and Developers should really be on a daily cadence (Agile development process daily stand-ups) so any issues and blockers can be identified and overcome quickly.
+Platform Team members and Developers run Agile process daily stand-ups so any issues and blockers can be identified and overcome quickly.
 
-It's then the Project Managers job to communicate issues/timescales/delays upwards as well as facilitate in helping them overcome issues or get guidance from Security or Executive Team members if there happen to be competing priorities.
+The Project Managers role is to communicate issues/timescales/delays upwards as well as facilitate in helping them overcome issues or get guidance from Security or Executive Team members if there happen to be competing priorities.
 
 Both the implementation and Executive/Finance teams will likely need reminding about the (SMART) goal, the timescales and the eventual payoff from achieving this.
 <!--

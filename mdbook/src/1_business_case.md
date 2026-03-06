@@ -37,7 +37,7 @@ For example, Developers see the issues in terms of technical debt, manual deploy
 
 Executives and Finance team members look through a lens of cost and sustainability as well as needing to react quickly to changing governmental policy.
 
-Service managers would love the focus to be on customer experience, ease of service support and the security concerns that come with running something that's public facing.
+Service managers would prioritise customer experience, ease of service support and the security concerns that come with running something that's public facing.
 
 Considering all of these perspectives results in the following problem statement:
 
@@ -47,7 +47,7 @@ Considering all of these perspectives results in the following problem statement
 
 The T (Transformation) in CATWOE is driven by Development Process Improvements nested inside a wider Software Transformation Process. The first includes things like adopting CI/CD, automated testing and standardised environments on which the transformation process depends.
 
-In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2010) term "integration hell" where change freeze periods are required to stabilise the environment after new software is deployed.
+In the book "Accelerate" (Forsgren, Humble and Kim, 2018) the authors show how mastering the fundamentals of automating deployments is a pre-requisite for transforming software delivery and then business outcomes. The continuous feedback loop which DevOps enables avoids what Humble and Farley (2011) term "integration hell" where change freeze periods are required to stabilise the environment after new software is deployed.
 
 A foundational research discovery of the early DevOps papers (Dora.dev, 2021) was that Development teams return better business outcomes if they improve the following metrics:
 
@@ -74,7 +74,7 @@ Software Transformation Process
 
 The analysis here is all about who is impacted inside the organisation (Actors) versus those with authority over its direction (Owners).
 
-Let's consider Developers & Support staff as Actors subject to the competing priorities of the Owner class who are focussed on topics like budgets, political deadlines and internal politics.
+Developers & Support staff function as Actors subject to the competing priorities of the Owner class who are focussed on topics like budgets, political deadlines and internal politics.
 
 #### Adopting Best Practice
 
@@ -104,7 +104,7 @@ Taking steps within the STP to surface the costs of implementing and managing th
 
 #### Customers
 
-At the end of the day, if voters receive a sub-par service, council staff will receive negative feedback and there could be wider political fallout.
+Ultimately, if voters receive a sub-par service, council staff will receive negative feedback and there could be wider political fallout.
 
 The public expect the same level of digital (self) service that they would get from an Amazon or any commercial organisation (Gov.UK, 2025)
 

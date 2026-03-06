@@ -23,11 +23,11 @@ POPIT (People, Organisation, Process & Information Technology) can help us decom
 
 #### Processes
 
-Developers report that processes are not well documented, coding standards are lacking and the development workflow is inconsistent. Formerly, mainly because a lot of the solutions were delivered by third-parties, CI/CD pipelines don't exist for deployments.
+Developers report that processes are not well documented, coding standards are lacking and the development workflow is inconsistent. Formerly, mainly because most solutions were delivered by third-parties, CI/CD pipelines don't exist for deployments.
 
 Application changes go through two process gates - DDA (Digital Design Authority) and then to the CAB (Change Advisory Board) however this effectively introduces a 2 week change leadtime.
 
-In this organisation the CAB is a huge sticking point. While the CAB sits on top of ITIL (IT Infrastructure Library) framework it's the v3 model from 2007 (now nearly 20 years old) that doesn't take into account ITIL v4 (2019) advances like DevOps, automated change approvals and decentralised decision making. (Williams, 2025)
+In this organisation the CAB is a governance bottleneck. While the CAB sits on top of ITIL (IT Infrastructure Library) framework it's the v3 model from 2007 (now nearly 20 years old) that doesn't take into account ITIL v4 (2019) advances like DevOps, automated change approvals and decentralised decision making. (Williams, 2025)
 
 Developers must create a document for DDA (takes 2-4 people a week) and then another one tailored towards risk and business justification for the CAB which pulls 10-20 people into a one hour meeting every week.
 
@@ -39,13 +39,13 @@ Developers argue that the CAB is operating under misconceptions (ManageEngine, n
 
 Based on my experience so far within the project the technical leadership structure is opaque and hard to navigate. It's not entirely clear who is responsible for what realm and finding out consists of asking team members who to talk to rather than being able to look it up.
 
-Any time an issue arises that might be cross-functional or require sharing knowledge to address a problem things start to break down and it can be difficult to find someone to drive the work towards a solution.
+Any time an issue arises that might be cross-functional or require sharing knowledge to address a problem communication slow and it can be difficult to find someone to drive the work towards a solution.
 
 #### People
 
 The council culture associated with 'technical best practice' sits within the 2010-2019 era of segregated responsibilities and on-prem manual deployments.
 
-While people would obviously like to do better the investment in tooling and support just hasn't materialised.
+Staff report wanting to excel but the necessary investment in tooling, support and training just hasn't materialised.
 
 This further suggests that providing a platform (IDP) that follows best practices and security would support development team members to embrace newer ways of working. Introducing Agile, TDD and CI/CD as some of the foundations of iterative and faster service delivery (see DORA findings around high performing organisations: Forsgren, Humble and Kim, 2018) would certainly empower teams to feel more confident in their abilities.
 
@@ -131,7 +131,7 @@ In some ways the decision about which Software Development Life Cycle approach t
 
 > Continous delivery, lean management and a culture of experimentation drive performance.
 
-The IDP is effectively a product that will enable the teams to improve the metrics which predict that the goal wil be met. With this in mind we need a flexible approach which can adapt to circumstances which is where Agile shines.
+The IDP is effectively a product that will enable the teams to improve the metrics which predict that the goal wil be met. This suggests a flexible approach which can adapt to circumstances. Something Agile is geared towards.
 
 According to the same research other approaches (waterfall, SAFe, ITIL) are too cumbersome.
 
