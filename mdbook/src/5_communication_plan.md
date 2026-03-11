@@ -155,7 +155,7 @@ Competing perspectives like this at the implementation phase reflect back to the
 
 The key Project Manager role has two difficult tasks. Managing the project progress itself and communicating out to stakeholder groups.
 
-We have a selection of audiences with different worldviews so using a single Minto Pyramid which offers of a conclusion and supporting arguments is too homogenous for our situation.
+We have a selection of audiences with different worldviews so using a single Minto Pyramid which offers a conclusion and supporting arguments is too homogenous for our situation.
 
 ELM helps diagnose how each group processes information while Ethos/Pathos/Logos can be used to persuade stakeholders by talking from the viewpoint that they're interested in.
 

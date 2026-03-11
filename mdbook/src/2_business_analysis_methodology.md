@@ -25,7 +25,7 @@ POPIT (People, Organisation, Process & Information Technology) decomposes the CA
 
 Developers report poorly documented processes, inconsistent coding standards and absent CI/CD pipelines — largely because solutions were formerly delivered by third parties.
 
-Application changes go through two process gates - DDA (Digital Design Authority) and then to the CAB (Change Advisory Board) however this effectively introduces a 2 week change leadtime.
+Application changes go through two process gates - DDA (Digital Design Authority) and then to the CAB (Change Advisory Board) however this effectively introduces a 2 week change lead time.
 
 The CAB is a governance bottleneck, operating under the ITIL v3 framework (2007) which predates ITIL v4 (2019) advances such as DevOps, automated change approvals and decentralised decision-making (Williams, 2025).
 
@@ -129,9 +129,9 @@ It should now be clear that a change in software development methodology, toolin
 
 In some ways the SDLC decision has already been made since we're following the guide laid out by DORA research and Accelerate.
 
-> Continous delivery, lean management and a culture of experimentation drive performance.
+> Continuous delivery, lean management and a culture of experimentation drive performance.
 
-The IDP is effectively a product that will enable the teams to improve the metrics which predict that the goal wil be met. This suggests a flexible approach which can adapt to circumstances. Something Agile is geared towards.
+The IDP is effectively a product that will enable the teams to improve the metrics which predict that the goal will be met. This suggests a flexible approach which can adapt to circumstances. Something Agile is geared towards.
 
 According to the same research other approaches (waterfall, SAFe, ITIL) are too cumbersome.
 

@@ -78,7 +78,7 @@ Developers & Support staff function as Actors subject to the competing prioritie
 
 #### Adopting Best Practice
 
-Developers might aim to implement best practice but can only do so within the constraints set by *owners*. If owners insist on an unrealistic timeline to meet a political promise this might risks introducing technical debt or security issues.
+Developers might aim to implement best practice but can only do so within the constraints set by *owners*. If owners insist on an unrealistic timeline to meet a political promise this might risk introducing technical debt or security issues.
 
 At some point one or both sides must compromise or deal with their own disappointment. It's important these dynamics and challenges are discussed within the organisation in an open and transparent manner.
 

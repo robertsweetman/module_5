@@ -65,7 +65,7 @@ Note: Total table allocation is 450 words (150+300), but this file has 1000 word
 
 As well as the upside of modernisation the business must also recognise the severe downside of a failure to modernise.
 
-In the rapidly changing IT landscape and increased security threats (Booth, 2025) failure to do bring systems, processes and tooling up-to-date leads to further inertia and fear around change.
+In the rapidly changing IT landscape and increased security threats (Booth, 2025) failure to bring systems, processes and tooling up-to-date leads to further inertia and fear around change.
 
 | Impact Area | Current State Risk | Post-IDP State |
 | --- | --- | --- |
